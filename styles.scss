@@ -1,0 +1,86 @@
+@import 'variables';
+
+
+
+/* General style */
+
+body {
+    font-family: 'Poppins';
+    margin: 0;
+}
+
+main {
+    margin: 0;
+    width: 1903px;
+}
+
+h2 {
+    color: var(--primary-color);
+    font-size: var(--primary-size);
+    margin: 0;
+}
+
+
+/* Page styles */
+
+.block1 {
+
+    background-image: url(./images/block1_background);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 840px;
+    width: 1903px;
+
+    .logo {
+        width: 370px;
+        height: 96px;
+        padding-top: 66px;
+        padding-left: 562.45px;
+        text-align: center;
+        
+
+        .logo-name {
+
+            line-height: 32px;
+
+            .logo-small-text {
+                font-size: 27px;
+                letter-spacing: 9.3px;
+                line-height: 61px;
+                width: 370px;
+            }
+        }
+    }
+
+    .service {
+        width: 880px;
+        height: 475px;
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        margin-top: 203px;
+        border-radius: 0px 30px 0px 0px;
+
+
+        .service-title {
+            color: var(--secondary-color);
+        }
+
+        .service-title,
+        .service-buttons {
+            padding-left: 352px;
+        }
+
+        .service-text {
+            width: 368px;
+            height: 153px;
+            font-size: var(--secondary-size);
+            font-weight: 500;
+            padding: 30px 160px 87px 352px;
+            margin: 0;
+        }
+
+        .service-title {
+            padding-top: 82px;
+        }
+    }
+}

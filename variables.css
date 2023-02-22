@@ -1,7 +1,15 @@
 :root {
   --primary-color: #4D6BB9;
   --secondary-color: #FFFFFF;
-  --tertiary-color: black;
+  --tertiary-color: #4F4F4F;
+  --quaternary-color: #EFD063;
+  --another-color: #294283;
+  --form-background-color: #9FB1DE;
+  --footer-background-color: #2D3751;
+  --contact-block-background-color: #F2F2F2;
   --primary-size: 60px;
   --secondary-size: 14px;
+  --primary-left-distance: 352px;
+  --secondary-left-distance: 641px;
+  --primary-width: 1903px;
 }/*# sourceMappingURL=variables.css.map */

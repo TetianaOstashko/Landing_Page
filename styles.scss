@@ -45,17 +45,25 @@ a:hover {
     position: absolute;
 
     .logo {
-        width: 370px;
+        width: 580.45px;
         height: 96px;
-        padding-top: 66px;
-        padding-left: 562.45px;
-        text-align: center;
+        margin-left: var(--primary-left-distance);
         position: absolute;
+
+        .logo-pic {
+            margin-top: 50px;
+
+            img {
+                width: 190.45px;
+                height: 128.07px;
+            }
+        }
         
 
         .logo-name {
-
             line-height: 32px;
+            margin-left: 210.45px;
+            margin-top: -102.07px;
 
             .logo-small-text {
                 font-size: 27px;
@@ -227,9 +235,6 @@ a:hover {
         z-index: 2;
         background-color: var(--secondary-color);
         color: var(--tertiary-color);
-        padding-bottom: 30px;
-        border-radius: 0 0 30px 0;
-        padding-right: 40px;
     }
 
     .block2-img {
@@ -237,12 +242,11 @@ a:hover {
         height: 442px;
         margin-left: var(--primary-left-distance);
         margin-top: 312px;
-        background-image: url(./images/block2_img);
+        background-image: url(./images/Union.svg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         position: absolute;
-        border-radius: 30px;
         z-index: 1;
     }
 
